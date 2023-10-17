@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './index.css'
 
 export const EForm = ({Agregar}) => {
 const [nombre, setNombre] = useState('');

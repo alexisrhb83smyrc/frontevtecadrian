@@ -19,7 +19,7 @@ function App() {
     <>
     <div className='container'>
       <div className="contain">
-        <h1>Usuarios</h1>
+        <h1 className='h1_title'>Usuarios</h1>
         <EForm Agregar={Agregar} />
         <EList table={table} Eliminar={Eliminar} />
       </div>
